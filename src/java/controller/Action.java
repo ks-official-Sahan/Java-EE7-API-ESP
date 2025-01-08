@@ -102,7 +102,7 @@ public class Action extends HttpServlet {
                 break;
             default:
                 System.out.println(action);
-                responseDto.setMessage("Action success");
+                responseDto.setMessage("Action not found");
                 break;
         }
         return result;
