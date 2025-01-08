@@ -36,6 +36,7 @@ public class Action extends HttpServlet {
                 responseDto.setMessage("Receiver is Disconnected. Please Try again in few minutes or Check the receiver.");
             }
             
+            
             resp.setStatus(resp.SC_OK);
             responseDto.setStatus(result);
         } else {
